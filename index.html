@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase | E-Commerce Store</title>
+
+    <meta name="description" content="Modern E-Commerce Product Catalog">
+    <meta name="keywords" content="E-Commerce, Shop, Online Store">
+    <meta name="author" content="Love Sharma">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+    
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>ShopEase</h2>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                 <li>
+    <a href="cart.html">
+        Cart (<span id="cart-count">0</span>)
+    </a>
+</li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <h1>Welcome to ShopEase</h1>
+
+                <p>
+                    Discover Amazing Products at the Best Prices
+                </p>
+
+                <a href="products.html" class="btn">
+                    Shop Now
+                </a>
+
+            </div>
+
+        </section>
+        <section class="filters">
+
+    <select id="category">
+
+        <option value="All">All Categories</option>
+
+        <option value="Electronics">Electronics</option>
+
+        <option value="Fashion">Fashion</option>
+
+        <option value="Shoes">Shoes</option>
+
+        <option value="Home">Home</option>
+
+    </select>
+
+    <select id="sort">
+
+        <option value="default">Sort By</option>
+
+        <option value="low-high">Price : Low to High</option>
+
+        <option value="high-low">Price : High to Low</option>
+
+    </select>
+
+</section>
+
+
+        <!-- ================= CATEGORIES ================= -->
+
+        <section class="categories">
+
+            <h2>Shop By Category</h2>
+
+            <div class="category-container">
+
+                <div class="category-card">
+
+                    <img src="assets/images/electronics.jpg" alt="Electronics">
+
+                    <h3>Electronics</h3>
+
+                </div>
+
+                <div class="category-card">
+
+                    <img src="assets/images/fashion.jpg" alt="Fashion">
+
+                    <h3>Fashion</h3>
+
+                </div>
+
+                <div class="category-card">
+
+                    <img src="assets/images/shoes.jpg" alt="Shoes">
+
+                    <h3>Shoes</h3>
+
+                </div>
+
+                <div class="category-card">
+
+                    <img src="assets/images/home.jpg" alt="Home">
+
+                    <h3>Home</h3>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= FEATURED PRODUCTS ================= -->
+
+        <section class="featured">
+
+            <h2>Featured Products</h2>
+
+            <div id="product-container">
+
+                <!-- JavaScript will load products here -->
+
+            </div>
+
+        </section>
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features">
+
+            <h2>Why Choose ShopEase?</h2>
+
+            <div class="feature-grid">
+
+                <div class="feature">
+
+                    <h3>🚚 Free Shipping</h3>
+
+                    <p>
+                        Free delivery on orders above ₹999.
+                    </p>
+
+                </div>
+
+                <div class="feature">
+
+                    <h3>💳 Secure Payment</h3>
+
+                    <p>
+                        100% Safe & Secure Payments.
+                    </p>
+
+                </div>
+
+                <div class="feature">
+
+                    <h3>🔄 Easy Returns</h3>
+
+                    <p>
+                        7 Days Easy Return Policy.
+                    </p>
+
+                </div>
+
+                <div class="feature">
+
+                    <h3>⭐ Premium Quality</h3>
+
+                    <p>
+                        Top Rated & Verified Products.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>ShopEase</h3>
+
+                <p>
+                    Your Trusted Online Shopping Partner.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="products.html">Products</a></li>
+
+                    <li><a href="cart.html">Cart</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>Email : support@shopease.com</p>
+
+                <p>Phone : +91 9876543210</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+
+            © 2026 ShopEase. All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+</body>
+</html>
